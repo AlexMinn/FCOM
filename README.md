@@ -1,1 +1,1 @@
-Practica final de Fundamentos de Computadores
+Prácticas correspondientes a la asignatura de Fundamentos de Computadores
