@@ -1,0 +1,13 @@
+.data
+A: .word 0
+.text 
+	#imprimir lo que se está pidiendo
+	li $v0,5
+	syscall
+	
+	sll $s0,$v0,2
+	addi $s0,$s0,1
+	
+	add $a0,$s0,$zero 
+	li $v0, 1
+	syscall
